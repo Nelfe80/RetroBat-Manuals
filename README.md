@@ -1,5 +1,5 @@
 # RetroBat Game Manual Viewer Plugin
-
+<img src="https://github.com/Nelfe80/RetroBat-Manuals/blob/main/images/logo.jpg" style="width:100%;">
 ## Introduction
 This plugin for RetroBat enhances your gaming experience by allowing you to read game manuals directly while playing. It's a convenient way to access game instructions, controls, and tips without leaving your game.
 
