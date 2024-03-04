@@ -48,7 +48,7 @@ def load_input_config():
     return devices_key_ids
 
 def save_current_page(game, current_page, current_working_dir):
-    manuals_dir = os.path.join(current_working_dir, 'manuals')
+    manuals_dir = os.path.join(current_working_dir)
     if not os.path.exists(manuals_dir):
         os.makedirs(manuals_dir)
 
@@ -57,7 +57,7 @@ def save_current_page(game, current_page, current_working_dir):
         file.write(str(current_page))
 
 def load_last_page(game, current_working_dir):
-    pin_file_path = os.path.join(current_working_dir, 'manuals', f"{game}.pin")
+    pin_file_path = os.path.join(current_working_dir, f"{game}.pin")
     if os.path.exists(pin_file_path):
         with open(pin_file_path, 'r') as file:
             return int(file.read().strip())
@@ -90,7 +90,7 @@ def get_pdf_path(system, game):
     print(f"Chemin du fichier PDF: {manual_path}")
     return manual_path
 
-def show_pdf_fullscreen(pdf_path, game, joystick_keys, joystick):
+def show_pdf_fullscreen(pdf_path, game, system, joystick_keys, joystick):
     # Obtention du répertoire de travail actuel
     current_dir = os.getcwd()
     # version appelé du script
@@ -98,7 +98,7 @@ def show_pdf_fullscreen(pdf_path, game, joystick_keys, joystick):
     # version dev dans dossier plugins/Manuals/
     #current_dir = os.path.dirname(os.path.dirname(current_dir))
 
-    current_dir = os.path.join('plugins', 'Manuals', 'manuals')
+    current_dir = os.path.join(current_dir, 'plugins', 'Manuals', 'manuals', system)
 
     infoObject = pygame.display.Info()
     screen = pygame.display.set_mode((infoObject.current_w, infoObject.current_h), pygame.FULLSCREEN)
@@ -203,7 +203,7 @@ def main_loop():
                         print(f"Joystick bouton {event.button} {'pressé' if button_pressed else 'relâché'}, GUID: {guid}, Instance ID: {instance_id}, Hotkey pressé: {hotkey_pressed}, Pagedown pressé: {pagedown_pressed}")
 
                         if hotkey_pressed and pagedown_pressed:
-                            show_pdf_fullscreen(pdf_path, game, joystick_keys, joystick)
+                            show_pdf_fullscreen(pdf_path, game, system, joystick_keys, joystick)
                             print(f"show_pdf_fullscreen quit")
                             pygame.quit()
                             time.sleep(1)
