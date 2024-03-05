@@ -53,10 +53,10 @@ Ce plugin pour RetroBat améliore votre expérience de jeu en vous permettant de
 A partir du momement où vous lancez Retrobat et pour éviter tout problème de focus, il est recommandé de ne jamais utiliser votre souris et votre clavier à partir de ce moment, sinon cela pourrait provoquer une perte de focus du manuel et vous pourriez de pas le voir car il s'est ouvert en arrière plan.
 Pendant que vous jouez à un jeu dans RetroBat, vous pouvez accéder facilement au manuel du jeu avec ces contrôles :
 - **Ouvrir le Manuel,** en fonction du système d'exploitation ou de l'émulateur :
-  - Appuyer sur la touche `hotkey` et la maintenir > Appuyer sur `R1` et la maintenir > Relâcher `R1` > Relâcher la touche `hotkey`
+  - Appuyer et maintenir la `hotkey` > Appuyer et maintenir `R1` > Relâcher `R1` > Relâcher la `hotkey`
     
   OU
-  - Appuyer et maintenir la touche `hotkey` > Appuyer et maintenir `R1` > Relâcher la touche `hotkey` > Relâcher `R1`
+  - Appuyer et maintenir la `hotkey` > Appuyer et maintenir `R1` > Relâcher la `hotkey` > Relâcher `R1`
 - **Naviguer dans le Manuel :**
   - `Page Précédente :` Appuyez sur `L1`.
   - `Page Suivante :` Appuyez sur `R1`.
