@@ -130,14 +130,25 @@ def show_pdf_fullscreen(pdf_path, game, system, joystick_keys, joystick):
                 elif event.key == pygame.K_LEFT or event.key == pygame.K_UP:
                     current_page = max(current_page - 1, 0)
 
-        # Code pour afficher la page actuelle du PDF
+        # Code pour afficher la page actuelle du PDF et la centrer
         page = doc.load_page(current_page)
         zoom_x = infoObject.current_w / page.rect.width
         zoom_y = infoObject.current_h / page.rect.height
-        mat = fitz.Matrix(zoom_x, zoom_y)
+        zoom = min(zoom_x, zoom_y)
+        mat = fitz.Matrix(zoom, zoom)
         pix = page.get_pixmap(matrix=mat)
+
+        # Calcul des marges pour centrer l'image
+        margin_x = (infoObject.current_w - pix.width) // 2
+        margin_y = (infoObject.current_h - pix.height) // 2
+
         img = pygame.image.fromstring(pix.samples, (pix.width, pix.height), "RGB")
-        screen.blit(img, (0, 0))
+
+        # Remplir l'écran avec du noir
+        screen.fill((0, 0, 0))
+
+        # Blit l'image au centre de l'écran
+        screen.blit(img, (margin_x, margin_y))
         pygame.display.flip()
 
     doc.close()
@@ -205,6 +216,7 @@ def main_loop():
                         if hotkey_pressed and pagedown_pressed:
                             show_pdf_fullscreen(pdf_path, game, system, joystick_keys, joystick)
                             print(f"show_pdf_fullscreen quit")
+                            pygame.display.quit()
                             pygame.quit()
                             time.sleep(1)
                             pygame.init()
