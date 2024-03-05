@@ -13,7 +13,7 @@ This plugin for RetroBat enhances your gaming experience by allowing you to read
 From the moment you launch Retrobat, and to avoid any focus problems, we recommend that you never use your mouse or keyboard from that moment onwards, as this could cause the manual to lose focus, and you may not be able to see it because it has opened in the background.
 While playing a game in RetroBat, you can easily access the game's manual with these controls:
 - **Pause your game** (highly recommended if the game allows it)
-- **Open Manual,** depending on the OS/Emulator : 
+- **Open Manual,** depending on the OS/Emulator: 
   - Press and hold `hotkey` > Press and hold `R1` > Release `R1` > Release `hotkey`
     
   OR
