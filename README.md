@@ -10,8 +10,12 @@ This plugin for RetroBat enhances your gaming experience by allowing you to read
 3. **Run the Installer:** Execute `install.bat` to complete the installation process.
 
 ## Usage
+From the moment you launch Retrobat, and to avoid any focus problems, we recommend that you never use your mouse or keyboard from that moment onwards, as this could cause the manual to lose focus, and you may not be able to see it because it has opened in the background.
 While playing a game in RetroBat, you can easily access the game's manual with these controls:
-- **Open Manual:** Press `hotkey` + `R1`.
+- **Open Manual:** Press `hotkey` + `R1` and depending on the OS/Emulator : 
+  - Press and hold Hotkey > Press and hold RB > Release RB > Release Hotkey
+  -- OR --- 
+  - Press and hold Hotkey > Press and hold RB > Release hotkey > Release RB 
 - **Navigate Manual:**
   - `Previous Page:` Press `L1`.
   - `Next Page:` Press `R1`.
@@ -45,8 +49,12 @@ Ce plugin pour RetroBat améliore votre expérience de jeu en vous permettant de
 3. **Exécutez l'Installateur :** Lancez `install.bat` pour compléter le processus d'installation.
 
 ## Utilisation
+A partir du momement où vous lancez Retrobat et pour éviter tout problème de focus, il est recommandé de ne jamais utiliser votre souris et votre clavier à partir de ce moment, sinon cela pourrait provoquer une perte de focus du manuel et vous pourriez de pas le voir car il s'est ouvert en arrière plan.
 Pendant que vous jouez à un jeu dans RetroBat, vous pouvez accéder facilement au manuel du jeu avec ces contrôles :
-- **Ouvrir le Manuel :** Appuyez sur `hotkey` + `R1`.
+- **Ouvrir le Manuel :** Appuyez sur `hotkey` + `R1` et en fonction du système d'exploitation ou de l'émulateur :
+  - Appuyer sur la touche hotkey et la maintenir > Appuyer sur R1 et la maintenir > Relâcher R1 > Relâcher la touche hotkey
+  -- OU --- 
+  - Appuyer et maintenir la touche hotkey > Appuyer et maintenir R1 > Relâcher la touche hotkey > Relâcher R1
 - **Naviguer dans le Manuel :**
   - `Page Précédente :` Appuyez sur `L1`.
   - `Page Suivante :` Appuyez sur `R1`.
