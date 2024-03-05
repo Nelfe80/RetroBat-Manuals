@@ -14,7 +14,8 @@ From the moment you launch Retrobat, and to avoid any focus problems, we recomme
 While playing a game in RetroBat, you can easily access the game's manual with these controls:
 - **Open Manual:** Press `hotkey` + `R1` and depending on the OS/Emulator : 
   - Press and hold Hotkey > Press and hold RB > Release RB > Release Hotkey
-  -- OR --- 
+    
+  OR
   - Press and hold Hotkey > Press and hold RB > Release hotkey > Release RB 
 - **Navigate Manual:**
   - `Previous Page:` Press `L1`.
@@ -53,7 +54,8 @@ A partir du momement où vous lancez Retrobat et pour éviter tout problème de 
 Pendant que vous jouez à un jeu dans RetroBat, vous pouvez accéder facilement au manuel du jeu avec ces contrôles :
 - **Ouvrir le Manuel :** Appuyez sur `hotkey` + `R1` et en fonction du système d'exploitation ou de l'émulateur :
   - Appuyer sur la touche hotkey et la maintenir > Appuyer sur R1 et la maintenir > Relâcher R1 > Relâcher la touche hotkey
-  -- OU --- 
+    
+  OU
   - Appuyer et maintenir la touche hotkey > Appuyer et maintenir R1 > Relâcher la touche hotkey > Relâcher R1
 - **Naviguer dans le Manuel :**
   - `Page Précédente :` Appuyez sur `L1`.
