@@ -1,4 +1,4 @@
-# RetroBat Game Manual Viewer Plugin
+# RetroBat Game Manual Viewer Plugin - 1.0
 <img src="https://github.com/Nelfe80/RetroBat-Manuals/blob/main/images/logo.jpg" style="width:100%;">
 
 ## Introduction
